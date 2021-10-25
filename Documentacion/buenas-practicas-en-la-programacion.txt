@@ -10,3 +10,20 @@ Una vez redactado un alcance, es conveniente separar en proyecto en secciones o 
 3.- Elección de un IDE que se adapte a tus necesidades.
 Dependiendo del lenguaje de programación que vayamos a utilizar, será conveniente el uso de un Entorno de Desarrollo integrado (IDE) u otro, ya que cada IDE está enfocado a uno o varios lenguajes de programación. Por ejemplo, si vamos a programar en java, sería conveniente hacer uso de los IDE NetBeans o Eclipse, si vamos a hacerlo en Python podemos hacer uso de Atom o Visual Studio Code, si vamos a hacer un desarrollo en php o html podemos hacer uso de PhpStorm. Si, por el contrario, queremos hacer uso de un IDE que pueda servirnos para varios lenguajes de programación, podemos hacer uso de alguno que permita importar librerías y funciones de algún lenguaje concreto como es sublimetext.
 
+4.- Estandarizar las reglas del desarrollo.
+Cuando vamos a comenzar con los desarrollos hay que definir nuestra forma de trabajar: La forma de llamar y definir las funciones, las variables, el nombre de los ficheros, atributos, etc. En un buen código se distinguen fácilmente estos elementos. Un código que no sigue alguna normalización resulta más complicado de mantener.
+
+5.- DRY: Dont repeat yourself.
+No repitas código, modulariza tus desarrollos. Repetir partes de código a lo largo de un desarrollo solo sirve para dificultar el mantenimiento y aumentar la probabilidad de cometer errores. Agrupa en funciones las operaciones que se repitan, y aíslala del resto del código, el esfuerzo necesario para el mantenimiento del código disminuirá. Si estos trozos de código son requeridos por otros ficheros, no solo elimínalos del flujo natural, si no que colócalo en un fichero aparte y accesible por todos los elementos del código.
+
+6.- No inventes.
+Si ya se disponen de módulos y librerías ya testeadas y optimizadas, no pierdas el tiempo en un desarrollo. Los IDE actuales disponen de librerías que te ayudarán en tus desarrollos.
+
+7.- Comenta tu código.
+Para facilitar las modificaciones y mantenimiento, pero recuerda, un buen código es aquel que no necesita comentarios. Redacta sentencias simples e intenta elaborar una solución sencilla y corta. Cuanto más corta sea, menos errores se producirán y más fácil será localizarlos y solventarlos.
+
+8.- Divide y vencerás.
+Divide los desarrollos complejos en varios más sencillos. Enrocarse en buscar una solución que abarque todas las posibilidades o funcionalidades te va a hacer perder mucho el tiempo. Divide el desarrollo en funcionalidades y prográmalas atendiendo a su función principal y a la integración con el resto.
+
+9.- Testeo de código.
+Realizarás muchas pruebas durante el desarrollo del software y sobre todo al final de este. Prepara una batería de pruebas que puedas ejecutar en cualquier momento. Muchas veces el ajuste de algunos elementos provoca alguna incongruencia con otros, con tu batería de pruebas debes poder detectar esto.
