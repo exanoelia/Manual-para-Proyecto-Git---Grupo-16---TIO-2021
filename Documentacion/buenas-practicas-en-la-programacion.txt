@@ -1,0 +1,2 @@
+Buenas practicas en la programación
+	A continuación se nombraran practicas que, en caso de seguirlas correctamente, generaran un código legible y prolijo. Este permitirá que si alguien ajeno al proyecto lo lee entienda fácilmente que es lo que el programador decidió hacer y como funciona su código.
