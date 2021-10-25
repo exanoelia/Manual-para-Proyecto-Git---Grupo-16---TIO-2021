@@ -1,2 +1,12 @@
 Buenas practicas en la programación
 	A continuación se nombraran practicas que, en caso de seguirlas correctamente, generaran un código legible y prolijo. Este permitirá que si alguien ajeno al proyecto lo lee entienda fácilmente que es lo que el programador decidió hacer y como funciona su código.
+
+1.- Definición de requisitos. Alcance del proyecto.
+Puede parecer una tontería, al menos debo conocer que tengo que programar y para qué va a servir, pero no es así, la mayor parte de los clientes no saben realmente que es lo que quieren y mucho menos como implementarlo en un desarrollo. Merece la pena sentarse con el cliente y los usuarios finales de la aplicación y definir a donde se quiere llegar y como lo haremos. Es imprescindible redactar un documento de alcance y que todos los participantes del proyecto (programadores, analistas, jefes de proyecto, cliente que solicita el desarrollo y usuarios finales que harán uso de la aplicación) estén totalmente de acuerdo. El análisis de unos requisitos y la redacción de un documento de alcance nos evitará más de un dolor de cabeza durante y en la finalización del proyecto.
+
+2.- Dividir los desarrollos en fases o entregables.
+Una vez redactado un alcance, es conveniente separar en proyecto en secciones o fases que permitan al cliente ir viendo resultados durante el desarrollo. Si un proyecto tiene una duración de 10 meses, no podemos tener al cliente sin ver nada durante los 10 meses de desarrollo, hay que ir mostrando los resultados, cosa que también nos servirá para ir realizando determinados ajustes y no llegar al final del proyecto y el cliente nos haga cambiar más de la mitad de los desarrollos. Dividir el proyecto en fases, sprint o secciones nos permitirá marcarnos objetivos en periodos cortos e ir mostrando los resultados.
+
+3.- Elección de un IDE que se adapte a tus necesidades.
+Dependiendo del lenguaje de programación que vayamos a utilizar, será conveniente el uso de un Entorno de Desarrollo integrado (IDE) u otro, ya que cada IDE está enfocado a uno o varios lenguajes de programación. Por ejemplo, si vamos a programar en java, sería conveniente hacer uso de los IDE NetBeans o Eclipse, si vamos a hacerlo en Python podemos hacer uso de Atom o Visual Studio Code, si vamos a hacer un desarrollo en php o html podemos hacer uso de PhpStorm. Si, por el contrario, queremos hacer uso de un IDE que pueda servirnos para varios lenguajes de programación, podemos hacer uso de alguno que permita importar librerías y funciones de algún lenguaje concreto como es sublimetext.
+
