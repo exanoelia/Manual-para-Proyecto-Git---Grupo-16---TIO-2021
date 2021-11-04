@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,27 +8,53 @@
     <title>TPE</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
+
 <body>
-    <div id="navbar">
-        <ul>
-            <li><a href="#documentacionInscripcion">Inscripcion a una materia</a></li>
-        </ul>
-    </div>
-    <div id="documentacionInscripcion">
-        <h1>Inscripción a una materia</h1>
-        <p> -	Ingresa al SIU Guaraní  de grado con usuario y contraseña 
-            -	Ir a la solapa Inscripción a materias e inscribirte a todas aquellas que vas a cursar
-            -	Una vez que te inscribiste en las materias, serás matriculado a las aulas en moodle y/o clasroom
-            -	Es muy importante anotarte en el SIU Guaraní, ya que ahí es donde se registra el avance de tu carrera
-            -	Estate atento a las fechas de inscripción, ya que cada cuatrimestre tiene un periodo para realizarlo
-        </p>
-    </div>
-    <form id="formSugerencias">
-        <input type="text" name="nombre">
-        <textarea name="sugerencia" cols="30" rows="10" placeholder="Escriba su sugerencia..."></textarea>
-        <button>Enviar Sugerencia</button>
-        <span id="mensajeForm"></span>
-    </form>
-    <script src="js/menubutton.js"></script>   
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#documentacionInscripcion">Inscripcion a una materia</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="documentacionInscripcion">
+            <h1>Inscripción a una materia</h1>
+            <ul>
+                <li>Ingresa al SIU Guaraní de grado con usuario y contraseña</li>
+                <li>Ir a la solapa Inscripción a materias e inscribirte a todas aquellas que vas a cursar</li>
+                <li>Una vez que te inscribiste en las materias, serás matriculado a las aulas en moodle y/o clasroom
+                </li>
+                <li>Es muy importante anotarte en el SIU Guaraní, ya que ahí es donde se registra el avance de tu
+                    carrera</li>
+                <li>Estate atento a las fechas de inscripción, ya que cada cuatrimestre tiene un periodo para realizarlo
+                </li>
+            </ul>
+        </div>
+        <form id="formSugerencias">
+            <ul class= formulario>
+                <li>
+                    <input type="text" name="nombre" placeholder="Nombre">
+                </li>
+                <li>
+                    <textarea name="sugerencia" cols="30" rows="10" placeholder="Escriba su sugerencia..."></textarea>
+                </li>
+                <li>
+                    <button>Enviar Sugerencia</button>
+                </li> 
+                <li>
+                    <span id="mensajeForm"></span>
+                </li>
+            </ul> 
+        </form>
+    </main>
+
+    <footer>
+        <h6>
+            <p>2021 © Todos los Derechos Reservados</p>
+        </h6>
+    </footer>
+    <script src="js/menubutton.js"></script>
 </body>
+
 </html>
