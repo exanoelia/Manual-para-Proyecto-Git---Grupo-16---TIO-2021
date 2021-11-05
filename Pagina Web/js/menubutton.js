@@ -1,6 +1,5 @@
 "use strict";
 
-console.log("Test");
 let formulario = document.querySelector("#formSugerencias");
 formulario.addEventListener("submit",enviarSugerencia);
 
