@@ -1,8 +1,10 @@
 "use strict";
 
+
 let formulario = document.querySelector("#formSugerencias");
 
 formulario.addEventListener("submit",enviarSugerencia);
+
 
 function enviarSugerencia(e) {
     e.preventDefault();
@@ -11,3 +13,5 @@ function enviarSugerencia(e) {
     let mensaje = document.querySelector("#mensajeForm");
     mensaje.innerHTML = `Hola, ${nombre}. Su sugerencia ha sido recibida y sera evaluada. ¡Gracias!`;
 }
+
+//Cambio experimental en el archivo
