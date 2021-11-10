@@ -46,18 +46,18 @@ nav {
 main{
     background: white;
 	width: 90%;
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 20px auto;
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
-#documentacionInscripcion, #formSugerencias{
+#documentacionInscripcion, #formSugerencias, #documentacionCertificadoAR, #documentacionAcreditarseFinal, #documentacionOrganizarseHorarios{
     text-align: center;
     padding: 10px;
     
 }
 
-#documentacionInscripcion ul li {
+#documentacionInscripcion ul li, #documentacionCertificadoAR ul li, #documentacionAcreditarseFinal ul li, #documentacionOrganizarseHorarios ul li {
     text-align: left;
 }
 
@@ -80,6 +80,23 @@ input, textarea, button{
 .formulario{
     list-style: none;
 }
+
+img {
+    border-radius: 8px;
+	max-width: 80%;
+	height: auto;
+}
+
+h1{
+	text-align: center;
+	font-size: 2em;
+
+}
+
+span{
+	font-size: 0.6em;
+}
+
 
 
 
